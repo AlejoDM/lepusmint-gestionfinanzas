@@ -117,3 +117,8 @@ footer {
   font-size: 14px;
 }
 footer a { margin-right: 14px; }
+
+.hero-links { margin-top: 22px; }
+.hero-links a.cta { background: #fff; color: var(--primary); }
+.hero-links a.ghost { background: transparent; color: #fff; border: 2px solid rgba(255, 255, 255, 0.7); }
+.links.secondary a { background: var(--bg); color: var(--primary); border: 1px solid var(--border); }
