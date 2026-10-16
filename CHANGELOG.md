@@ -2,6 +2,17 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.2.0 — 16 de octubre de 2026
+
+- **Aviso de versiones nuevas.** La app te avisa una sola vez cuando hay una versión más nueva, y en Ajustes podés ver las novedades, la versión que tenés y buscar actualizaciones cuando quieras.
+- **Borrar varios movimientos a la vez.** Marcás los que quieras y los eliminás juntos, con una confirmación que muestra el total.
+- **Filtrar movimientos por fechas.** Un interruptor nuevo muestra solo los movimientos de un rango; al activarlo arranca desde el 1° del mes hasta hoy.
+- **Corregir el saldo de una cuenta sin crear un movimiento.** Al editar el saldo podés elegir si queda registrado como un ajuste o si solo se corrige el número.
+- **Borrar un mes en Períodos.** Con tres confirmaciones, para no borrar nada por error.
+- **Listas de compras renovadas.** Colores para listas y artículos, mover manteniendo apretado, editar artículos, fecha en que se marcó cada uno como comprado, y PDF de una lista, de varias o de todas. Las listas activas siempre quedan arriba y las finalizadas abajo.
+- **Reutilizar una lista de compras.** Guarda la lista actual en el historial y crea una igual con todo desmarcado.
+- **Página de Novedades** en el sitio, con el historial de cambios de cada versión.
+
 ## Versión 1.001 — 30 de septiembre de 2026
 
 Primera versión que se puede descargar desde esta página. Incluye todo lo que figura en el historial de más abajo.
