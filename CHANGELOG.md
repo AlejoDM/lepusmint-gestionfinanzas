@@ -2,6 +2,14 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.3.1 — 3 de noviembre de 2026
+
+- **Aviso de versión nueva arriba del inicio.** Cuando sale una versión nueva, aparece una franja arriba de la pantalla de inicio con un botón para descargarla. Se puede cerrar, y no vuelve a aparecer por esa misma versión.
+- **La descarga de actualizaciones lleva a esta página.** Ya no te manda directo a GitHub: abre la sección de descarga del sitio.
+- **Despliegues más suaves.** Los filtros de Movimientos y los detalles de las categorías en las liquidaciones se abren y se cierran con una pequeña animación.
+- **PDF de deudas con textos largos.** Si el nombre o el saldo son largos, la tarjeta crece para contenerlo y el título ya no se encima.
+- **Mensajes de respaldo y de reparto más claros.** Cada línea aparece en su renglón.
+
 ## Versión 1.3.0 — 3 de noviembre de 2026
 
 - **Reparto rápido.** En Deudas, calculás en el momento quién le paga a quién cuando gastaron juntos, sin crear ningún grupo ni guardar nada. Podés exportarlo en PDF y, si querés, registrar las deudas.
