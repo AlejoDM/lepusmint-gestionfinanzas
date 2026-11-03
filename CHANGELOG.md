@@ -2,6 +2,17 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.3.0 — 3 de noviembre de 2026
+
+- **Reparto rápido.** En Deudas, calculás en el momento quién le paga a quién cuando gastaron juntos, sin crear ningún grupo ni guardar nada. Podés exportarlo en PDF y, si querés, registrar las deudas.
+- **Filtros en Movimientos.** Un botón de Filtros despliega las opciones: compartidos, liquidados, gasto fijo, programados y con comprobante.
+- **Nuevo movimiento más cómodo.** El monto se separa en miles mientras lo escribís, la categoría se elige con buscador, y si una descripción ya la usaste antes, la categoría se completa sola (con un botón para deshacerlo).
+- **Volver al listado sin perder nada.** Al volver desde Ver o Editar, sigue cargado lo que ya veías y los filtros que habías elegido.
+- **Gráficos del inicio.** Los filtros de categorías se reinician al abrir la app, y ahora podés marcar o desmarcar todas las categorías de una vez.
+- **Tu nombre.** La primera vez te preguntamos cómo te llamás y elegís el idioma. Los reportes de deudas y liquidaciones dicen quién le debe a quién, en vez de frases confusas.
+- **Reportes con tus colores.** Los PDF usan los colores que elegiste en la app.
+- **Liquidaciones más claras.** Los montos se leen de un vistazo, y los gastos de cada persona se agrupan por categoría: tocás una categoría para ver el detalle. Al compartir un archivo, la categoría viaja con cada gasto.
+
 ## Versión 1.2.0 — 16 de octubre de 2026
 
 - **Aviso de versiones nuevas.** La app te avisa una sola vez cuando hay una versión más nueva, y en Ajustes podés ver las novedades, la versión que tenés y buscar actualizaciones cuando quieras.
