@@ -2,6 +2,16 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.4.0 — 10 de noviembre de 2026
+
+- **Compartir gastos de una liquidación por link.** Además del archivo, ahora podés mandar los gastos como un link. Quien lo recibe lo abre en el celular, elige a qué grupo agregarlos y revisa cuáles importar. Si son demasiados gastos para un link, te lo avisamos y podés mandar el archivo.
+- **Montos más cómodos de escribir.** Los saldos de cuenta y de deuda, y los montos de los formularios cortos, muestran los miles mientras los escribís, como en los movimientos.
+- **Categoría sugerida mientras escribís.** Al cargar un movimiento, la categoría aparece a medida que escribís la descripción, y se borra si el texto ya no coincide.
+- **Lista de movimientos al día.** Al borrar un movimiento desde el inicio, la lista de movimientos se actualiza enseguida.
+- **Inicio más rápido.** La pantalla aparece antes, y el respaldo automático corre después, sin demorar nada.
+- **PDF bien nombrados.** Los reportes se comparten como PDF, y el reparto rápido muestra tu nombre en vez de "Yo".
+- **Respaldo con tu nombre.** El respaldo también guarda el nombre que cargaste.
+
 ## Versión 1.3.1 — 3 de noviembre de 2026
 
 - **Aviso de versión nueva arriba del inicio.** Cuando sale una versión nueva, aparece una franja arriba de la pantalla de inicio con un botón para descargarla. Se puede cerrar, y no vuelve a aparecer por esa misma versión.
