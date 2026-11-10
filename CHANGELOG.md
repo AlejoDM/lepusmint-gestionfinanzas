@@ -2,6 +2,12 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.4.1 — 10 de noviembre de 2026
+
+- **Respaldo automático más confiable.** Tus datos se preparan para respaldar cada vez que cambian, y a partir de las 00:00 se suben a Google Drive y Telegram aunque no abras la app. La copia del celular se guarda cada día.
+- **Inicio por partes.** La pantalla aparece más rápido: primero tu saldo, después los movimientos y al final los gráficos.
+- **Respaldos sin repetir.** Si no cambió nada, ya no se genera un respaldo igual al anterior.
+
 ## Versión 1.4.0 — 10 de noviembre de 2026
 
 - **Compartir gastos de una liquidación por link.** Además del archivo, ahora podés mandar los gastos como un link. Quien lo recibe lo abre en el celular, elige a qué grupo agregarlos y revisa cuáles importar. Si son demasiados gastos para un link, te lo avisamos y podés mandar el archivo.
