@@ -1191,9 +1191,10 @@
       <h3>Respaldo automático diario</h3>
       <p>
         En <strong>Ajustes → Respaldo Automático Diario</strong> hay un interruptor general y uno por cada
-        destino. Al activarlo, la app intenta correr el respaldo una vez por día cerca de la medianoche en
-        segundo plano, y además, apenas abrís la app, si pasaron más de 24&nbsp;h desde el último respaldo
-        exitoso, lo corre en el momento como red de seguridad.
+        destino. Al activarlo, los datos se preparan para respaldar cada vez que cambian (y cada tanto mientras
+        usás la app). A partir de las <strong>00:00</strong>, la app intenta subir el último respaldo a Google Drive
+        y a Telegram, aunque no la abras. La copia local del día se guarda en el celular con la misma preparación.
+        Si la app no pudo subirlo a esa hora, lo intenta de nuevo al abrirla si pasaron más de 24&nbsp;h.
       </p>
 
       <h3>Para no ocupar espacio de más</h3>
