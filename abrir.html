@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Abrir en LepusMint</title>
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f5f6fa; color: #1e2433; }
+    .card { max-width: 420px; margin: 40px auto; padding: 24px; background: #fff; border-radius: 16px; box-shadow: 0 6px 24px rgba(30, 36, 51, .08); }
+    h1 { font-size: 22px; margin: 0 0 12px; }
+    p { line-height: 1.5; margin: 0 0 12px; }
+    .muted { color: #667085; font-size: 14px; }
+    .btn { display: block; text-align: center; padding: 14px; border-radius: 12px; background: #6366f1; color: #fff; text-decoration: none; font-weight: 600; margin-top: 16px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Gastos compartidos</h1>
+    <p id="resumen" class="muted">Leyendo el link…</p>
+    <a id="abrir" class="btn hidden" href="#">Abrir en LepusMint</a>
+    <div id="ayuda" class="hidden">
+      <p class="muted">¿No se abrió la app? Si todavía no la tenés, instalala y volvé a tocar el link.</p>
+      <a class="btn" href="index.html#descargar">Descargar LepusMint</a>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var resumen = document.getElementById('resumen');
+      var match = /(?:^|&)d=([A-Za-z0-9_-]+)/.exec((location.hash || '').slice(1));
+      if (!match) {
+        resumen.textContent = 'Este link no tiene gastos para importar.';
+        return;
+      }
+      var encoded = match[1];
+
+      function base64UrlToBytes(text) {
+        var base64 = text.replace(/-/g, '+').replace(/_/g, '/');
+        while (base64.length % 4) base64 += '=';
+        var binary = atob(base64);
+        var bytes = new Uint8Array(binary.length);
+        for (var i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+        return bytes;
+      }
+
+      // Los datos no salen del navegador: se leen acá y se pasan a la app del mismo celular.
+      var stream = new Blob([base64UrlToBytes(encoded)]).stream().pipeThrough(new DecompressionStream('deflate'));
+      new Response(stream).text().then(function (text) {
+        var data = JSON.parse(text);
+        var items = Array.isArray(data.items) ? data.items : [];
+        var total = items.reduce(function (sum, item) { return sum + (Number(item.amount) || 0); }, 0);
+        var money = '$ ' + new Intl.NumberFormat('es-AR', { maximumFractionDigits: 2 }).format(total);
+        resumen.textContent = 'Te compartieron ' + items.length + ' gastos' + (data.groupName ? ' de ' + data.groupName : '') +
+          ' por un total de ' + money + '. Abrilo en LepusMint para elegir a qué grupo agregarlos.';
+
+        var abrir = document.getElementById('abrir');
+        abrir.href = 'lepusmint://importar#d=' + encoded;
+        abrir.classList.remove('hidden');
+        setTimeout(function () { document.getElementById('ayuda').classList.remove('hidden'); }, 2000);
+      }).catch(function () {
+        resumen.textContent = 'No pudimos leer este link. Pedile a quien te lo mandó que lo genere de nuevo.';
+      });
+    })();
+  </script>
+</body>
+</html>
