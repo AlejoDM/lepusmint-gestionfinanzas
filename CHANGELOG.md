@@ -2,6 +2,18 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.5.0 — 22 de noviembre de 2026
+
+- **Categorías más cómodas.** Las categorías del sistema siempre quedan al final. Podés subir o bajar una categoría con las flechas, sin mantenerla apretada, y la lista se desplaza sola al arrastrar. Las tarjetas son más compactas.
+- **Elegí cómo cargar la categoría.** En Ajustes → Categorías podés dejar el buscador o ver todas las categorías a la vez, como chips.
+- **Cuenta y grupo sugeridos.** Al escribir una descripción que ya usaste, se completan también la cuenta y el grupo compartido de la última vez. Si elegís otra cosa, respetamos tu elección.
+- **Ojo para ocultar montos.** Ocultá el saldo que te queda en el inicio y los saldos de Cuentas. Queda guardado en tu celular.
+- **Más accesos en el inicio.** Una segunda fila con Grupos, Calculadora, Categorías, Meta y Períodos.
+- **Carga más clara.** Mientras se cargan los datos aparece un esqueleto, y "no hay movimientos" solo se muestra cuando ya terminó de cargar.
+- **Notificaciones más discretas.** Ya no muestran montos, nombres ni descripciones, así que no revelan nada con la pantalla bloqueada.
+- **Transferencias.** El motivo quedó debajo de la cuenta destino.
+- **Respaldo de noche.** Ajustes te avisa si la batería puede impedir que el respaldo se suba aunque no abras la app.
+
 ## Versión 1.4.1 — 10 de noviembre de 2026
 
 - **Respaldo automático más confiable.** Tus datos se preparan para respaldar cada vez que cambian, y a partir de las 00:00 se suben a Google Drive y Telegram aunque no abras la app. La copia del celular se guarda cada día.
