@@ -12,6 +12,7 @@ Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló
 - **Carga más clara.** Mientras se cargan los datos aparece un esqueleto, y "no hay movimientos" solo se muestra cuando ya terminó de cargar.
 - **Notificaciones más discretas.** Ya no muestran montos, nombres ni descripciones, así que no revelan nada con la pantalla bloqueada.
 - **Transferencias.** El motivo quedó debajo de la cuenta destino.
+- **Avisos de nueva versión.** Cada vez que abrís la app se revisa si hay una versión nueva. Si la hay, te avisa en el inicio; si no, no muestra nada.
 - **Respaldo de noche.** Ajustes te avisa si la batería puede impedir que el respaldo se suba aunque no abras la app.
 
 ## Versión 1.4.1 — 10 de noviembre de 2026
