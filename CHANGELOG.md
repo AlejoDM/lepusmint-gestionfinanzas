@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.5.1 — 22 de noviembre de 2026
+
+- **Ojo también en el saldo total.** El saldo total del inicio ahora tiene el mismo ojo que el saldo restante: lo ocultás con un toque y queda así al volver a abrir la app.
+
 ## Versión 1.5.0 — 22 de noviembre de 2026
 
 - **Categorías más cómodas.** Las categorías del sistema siempre quedan al final. Podés subir o bajar una categoría con las flechas, sin mantenerla apretada, y la lista se desplaza sola al arrastrar. Las tarjetas son más compactas.
