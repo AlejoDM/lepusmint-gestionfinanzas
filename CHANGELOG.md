@@ -2,6 +2,22 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.8.0 — 23 de noviembre de 2026
+
+- **Dictado más claro.** Mientras hablás, el ecualizador sigue tu voz. El audio y lo que se entendió quedan guardados en el movimiento, para escucharlo después.
+- **Dos proveedores para dictar: Gemini y Groq.** Groq transcribe con Whisper. Se quitó OpenRouter; si lo tenías configurado, la app te avisa.
+- **Lista de movimientos más rápida.** Deslizá una fila para editarla o borrarla. Al borrar, aparece "Deshacer" por unos segundos. Podés filtrar por monto.
+- **Frecuentes al cargar.** El formulario muestra arriba tus categorías más usadas para ese tipo de movimiento.
+- **Presupuesto por categoría.** Ponés un tope mensual a una categoría de gasto; el inicio lo muestra y te avisa al 80 % y al 100 %.
+- **Calendario de vencimientos.** Un mes completo con los días que vencen programados. Reemplaza el acceso "Meta" del inicio.
+- **Compartir una deuda por WhatsApp.** Mandás el resumen como texto a WhatsApp u otra app.
+- **Liquidación por QR.** Un grupo de gastos compartidos se puede mostrar como código QR para escanearlo desde otro celular.
+- **Ajustes ordenados.** Los bloques se pliegan y se despliegan tocando el título.
+- **Inicio a tu medida.** Elegís qué secciones ver y en qué orden.
+- **Registro de errores.** Si algo falla, queda guardado en tu teléfono y podés copiar el informe desde Ajustes → Acerca de.
+- **Atajos en Android.** Mantené apretado el ícono de LepusMint para cargar un gasto, un ingreso o ver tus listas de compras.
+- **Pantallas vacías con acción.** Cuentas, categorías, movimientos, listas de compras, períodos, gastos fijos, deudas e historial de ahorro te ofrecen el primer paso.
+
 ## Versión 1.7.1 — 23 de noviembre de 2026
 
 - **Micrófono del asistente.** Corregimos un permiso que faltaba y hacía que el micrófono se negara aunque lo hubieras permitido.
