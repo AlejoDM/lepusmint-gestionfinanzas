@@ -2,6 +2,14 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.6.0 — 23 de noviembre de 2026
+
+- **Asistente de voz.** Tocás el botón de micrófono, decís el movimiento ("gasté 3500 en la coca con la familia") y la app arma el formulario por vos. Nada se guarda hasta que toques "Registrar movimiento".
+- **Elegí tu proveedor de IA.** Para usar el asistente cargás una clave gratuita de Gemini, Groq u OpenRouter en Ajustes → Asistente de voz. Si uno no responde, se prueba el siguiente con clave cargada. Hay un enlace directo para conseguir cada clave.
+- **Botón de grabar donde te resulte cómodo.** Está abajo a la derecha en Movimientos, y si querés también aparece en el inicio.
+- **Pantalla de grabación.** Mientras hablás se mueven las líneas de la voz sobre un degradado de los colores de tu app, con un sonido al empezar y al terminar.
+- **Privacidad primero.** Antes de la primera grabación te explicamos que lo que dictás se envía al proveedor que elegiste. Las claves se guardan solo en tu celular.
+
 ## Versión 1.5.2 — 23 de noviembre de 2026
 
 - **Grupo compartido más preciso.** Si la mayoría de los movimientos con una descripción eran gastos propios, al volver a cargarla ya no se asigna un grupo compartido, aunque algunas veces sí lo hayas tenido.
