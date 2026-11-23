@@ -2,6 +2,11 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.8.1 — 23 de noviembre de 2026
+
+- **Reporte de cuentas.** Desde Cuentas exportás un PDF con el saldo actual de cada cuenta y el total. Las cuentas archivadas no entran.
+- **Color para los grupos compartidos.** Podés elegir un color para cada grupo. Al cargar un gasto compartido, el selector de grupo lo muestra apenas, sin molestar.
+
 ## Versión 1.8.0 — 23 de noviembre de 2026
 
 - **Dictado más claro.** Mientras hablás, el ecualizador sigue tu voz. El audio y lo que se entendió quedan guardados en el movimiento, para escucharlo después.
