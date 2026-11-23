@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.5.2 — 23 de noviembre de 2026
+
+- **Grupo compartido más preciso.** Si la mayoría de los movimientos con una descripción eran gastos propios, al volver a cargarla ya no se asigna un grupo compartido, aunque algunas veces sí lo hayas tenido.
+
 ## Versión 1.5.1 — 22 de noviembre de 2026
 
 - **Ojo también en el saldo total.** El saldo total del inicio ahora tiene el mismo ojo que el saldo restante: lo ocultás con un toque y queda así al volver a abrir la app.
