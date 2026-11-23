@@ -2,6 +2,12 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.7.0 — 23 de noviembre de 2026
+
+- **Dictado dentro de la app.** Ahora LepusMint graba tu voz por sí misma, sin usar otra aplicación. Tocás el botón, decís el movimiento y tocás Listo: la IA lo entiende y arma el formulario.
+- **Para dictar, Gemini.** El dictado usa tu clave de Gemini (gratis), que cargás en Ajustes → Asistente de voz.
+- **Se puede repetir.** Podés grabar cuantas veces quieras, sin reiniciar la app.
+
 ## Versión 1.6.4 — 23 de noviembre de 2026
 
 - **Dictado que se puede repetir.** Después de la primera grabación, el asistente volvía a quedarse en "Te escucho" y había que cerrar la app. Ahora podés grabar cuantas veces quieras, y cerrar la pantalla siempre funciona.
