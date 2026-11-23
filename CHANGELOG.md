@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.6.4 — 23 de noviembre de 2026
+
+- **Dictado que se puede repetir.** Después de la primera grabación, el asistente volvía a quedarse en "Te escucho" y había que cerrar la app. Ahora podés grabar cuantas veces quieras, y cerrar la pantalla siempre funciona.
+
 ## Versión 1.6.3 — 23 de noviembre de 2026
 
 - **Dictado más confiable.** Ahora el asistente usa el diálogo de voz de tu celular, que funciona aunque el reconocimiento directo se cierre sin escuchar.
