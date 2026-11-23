@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.8.2 — 23 de noviembre de 2026
+
+- **Color en el listado de grupos.** Los grupos compartidos muestran su color también en la lista de grupos, con el mismo tono suave.
+
 ## Versión 1.8.1 — 23 de noviembre de 2026
 
 - **Reporte de cuentas.** Desde Cuentas exportás un PDF con el saldo actual de cada cuenta y el total. Las cuentas archivadas no entran.
