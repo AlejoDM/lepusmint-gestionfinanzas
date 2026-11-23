@@ -2,6 +2,12 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.6.1 — 23 de noviembre de 2026
+
+- **Grabador por voz corregido.** La pantalla de grabación ya no queda corrida bajo la barra de estado, y no deja un margen negro abajo.
+- **Mensajes claros si la voz falla.** Si el reconocimiento de voz no puede escuchar, la app te dice por qué y qué revisar, en vez de un mensaje genérico.
+- **Telegram y asistente de voz plegados.** Sus datos se despliegan tocando el título, para no cambiar una clave sin querer.
+
 ## Versión 1.6.0 — 23 de noviembre de 2026
 
 - **Asistente de voz.** Tocás el botón de micrófono, decís el movimiento ("gasté 3500 en la coca con la familia") y la app arma el formulario por vos. Nada se guarda hasta que toques "Registrar movimiento".
