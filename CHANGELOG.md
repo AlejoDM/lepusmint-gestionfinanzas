@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.7.1 — 23 de noviembre de 2026
+
+- **Micrófono del asistente.** Corregimos un permiso que faltaba y hacía que el micrófono se negara aunque lo hubieras permitido.
+
 ## Versión 1.7.0 — 23 de noviembre de 2026
 
 - **Dictado dentro de la app.** Ahora LepusMint graba tu voz por sí misma, sin usar otra aplicación. Tocás el botón, decís el movimiento y tocás Listo: la IA lo entiende y arma el formulario.
