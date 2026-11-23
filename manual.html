@@ -419,6 +419,23 @@
         filtra al instante, combinable con los otros filtros.
       </p>
 
+      <h3>Deslizar, deshacer y filtrar por monto</h3>
+      <p>
+        En la lista, <strong>deslizá una fila hacia la izquierda</strong> para editarla o borrarla sin entrar al detalle.
+        Al borrar un movimiento aparece un aviso con <strong>Deshacer</strong> durante unos segundos. Los movimientos
+        de grupos compartidos, liquidados o ligados a una deuda no se pueden deshacer, y te lo avisa antes.
+        En los filtros podés acotar por <strong>monto mínimo y máximo</strong>.
+      </p>
+
+      <h3>Dictar un movimiento con la voz</h3>
+      <p>
+        Tocá el botón de micrófono, decí el movimiento (por ejemplo "gasté 3500 en la coca con la familia") y tocá
+        <strong>Listo</strong>. La app arma el formulario y <strong>nada se guarda</strong> hasta que toques
+        "Registrar movimiento". Para usarlo hace falta una clave gratuita de Gemini o Groq en
+        <strong>Ajustes → Asistente de voz</strong>. Si guardás el movimiento, el audio y la transcripción quedan en
+        el movimiento para escucharlos después; el audio se guarda solo en tu teléfono y no entra en los respaldos.
+      </p>
+
       <h3>Foto del comprobante</h3>
       <p>
         Al cargar o editar un gasto/ingreso podés tocar <strong>"Agregar foto"</strong> y elegir
@@ -514,6 +531,12 @@
     <!-- ─────────────────────────── PERÍODOS ─────────────────────────── -->
     <section class="chapter" id="periodos">
       <div class="chapter-kicker"><span class="num">Períodos</span></div>
+      <h3>Calendario de vencimientos</h3>
+      <p>
+        Desde el inicio, el acceso <strong>Calendario</strong> muestra el mes completo con un punto en los días que
+        tienen movimientos programados o cuotas por vencer. Tocá un día para ver qué vence ese día.
+      </p>
+
       <h2>Períodos</h2>
       <p>
         Mientras el Dashboard muestra el rango de fechas que elijas, <strong>Períodos</strong> (en
@@ -713,6 +736,12 @@
       <h3>Detalle e historial por persona</h3>
       <p>Cada persona tiene su propio historial de movimientos, con el balance actual arriba. Tocando cualquier movimiento se abren las opciones para <strong>editarlo</strong> o <strong>eliminarlo</strong> — en ambos casos, el balance de la persona y el saldo de la cuenta (si el movimiento tenía una transacción vinculada) vuelven exactamente a como estaban antes de reaplicar el cambio.</p>
 
+      <h3>Compartir el resumen por WhatsApp</h3>
+      <p>
+        En el detalle de una persona, el botón de compartir (la flecha en círculo) manda el resumen de la deuda como
+        texto a WhatsApp u otra app. Para un PDF, usá el botón de PDF de al lado.
+      </p>
+
       <h3>Archivar una persona</h3>
       <p>
         La opción para quitar una persona de la lista ahora <strong>archiva</strong> en vez de borrar: se oculta,
@@ -843,6 +872,13 @@
       <p class="fine-print">
         Los movimientos que consumió esa liquidación quedan marcados como liquidados — los que taggees después
         arrancan a acumularse para la próxima.
+      </p>
+
+      <h3>Mostrar la liquidación como QR</h3>
+      <p>
+        En un grupo, abrí el menú y elegí <strong>Mostrar QR</strong>. Otra persona puede escanearlo con la cámara
+        de su celular para abrir la liquidación en LepusMint. Si el grupo tiene demasiados movimientos para caber
+        en un QR, la app te lo avisa y podés compartir el link o el archivo.
       </p>
 
       <h3>Historial y reabrir</h3>
@@ -993,6 +1029,12 @@
     <!-- ─────────────────────────── CATEGORÍAS ─────────────────────────── -->
     <section class="chapter" id="categorias">
       <div class="chapter-kicker"><span class="num">Categorías</span></div>
+      <h3>Atajos en la pantalla de inicio</h3>
+      <p>
+        En Android, mantené apretado el ícono de LepusMint en la pantalla de inicio para ver los atajos
+        <strong>Nuevo gasto</strong>, <strong>Nuevo ingreso</strong> y <strong>Lista de compras</strong>.
+      </p>
+
       <h2>Categorías</h2>
       <p>
         Se pueden crear, editar, colorear, reordenar y ocultar categorías propias, además de las que vienen
@@ -1010,6 +1052,13 @@
           </ol>
         </div>
       </div>
+
+      <h3>Presupuesto mensual</h3>
+      <p>
+        En una categoría de gasto podés poner un <strong>presupuesto mensual</strong>. El inicio muestra una tarjeta
+        "Presupuestos" con cuánto llevás gastado este mes en cada una, y la app te avisa cuando llegás al 80 % y al 100 %.
+        Las notificaciones son genéricas: no muestran montos ni nombres.
+      </p>
 
       <h3>Reordenar categorías</h3>
       <p>
@@ -1076,6 +1125,24 @@
         (sección Cuentas). Los movimientos nuevos van a una cuenta interna y la app esconde todo lo de cuentas:
         saldos, la pantalla Cuentas, el selector de cuenta, las transferencias y el estado de cuenta. Si después
         lo desactivás, esa cuenta aparece como una más (con el saldo que resulte de lo cargado) y no se pierde nada.
+      </p>
+
+      <h3>Personalizar el inicio</h3>
+      <p>
+        En <strong>Ajustes → Apariencia → Personalizar inicio</strong> elegís qué secciones ver y en qué orden. Cada
+        sección tiene un interruptor para mostrarla u ocultarla y flechas para moverla. "Restablecer" vuelve al orden original.
+      </p>
+
+      <h3>Registro de errores</h3>
+      <p>
+        Si algo falla, la app guarda un registro <strong>solo en tu teléfono</strong>. En <strong>Ajustes → Acerca de</strong>
+        podés copiar el informe para pasarlo al desarrollador, o borrarlo. No se envía a ningún lado.
+      </p>
+
+      <h3>Ajustes agrupados</h3>
+      <p>
+        Ajustes está dividido en bloques plegables (General, Seguridad y avisos, Asistente de voz, Respaldo y datos,
+        Acerca de y Zona de riesgo). Tocá el título de un bloque para desplegarlo; el buscador abre los bloques que tienen coincidencias.
       </p>
 
       <h3>Actualizaciones</h3>
