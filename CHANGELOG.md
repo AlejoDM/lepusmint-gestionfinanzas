@@ -2,6 +2,10 @@
 
 Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló en la app. Lo más nuevo está arriba.
 
+## Versión 1.6.3 — 23 de noviembre de 2026
+
+- **Dictado más confiable.** Ahora el asistente usa el diálogo de voz de tu celular, que funciona aunque el reconocimiento directo se cierre sin escuchar.
+
 ## Versión 1.6.2 — 23 de noviembre de 2026
 
 - **Dictado corregido.** Si el reconocimiento de voz de tu celular terminaba sin devolver el texto final, la grabación fallaba. Ahora se usa lo último que se entendió.
