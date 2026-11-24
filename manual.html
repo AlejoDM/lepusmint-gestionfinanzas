@@ -318,6 +318,12 @@
     <!-- ─────────────────────────── MOVIMIENTOS ─────────────────────────── -->
     <section class="chapter" id="movimientos">
       <div class="chapter-kicker"><span class="num">Movimientos</span></div>
+      <h3>Reporte de cuentas en PDF</h3>
+      <p>
+        En la pantalla de Cuentas, el botón de documento exporta un PDF con el saldo actual de cada cuenta y el total.
+        Las cuentas archivadas no entran.
+      </p>
+
       <h2>Movimientos</h2>
       <p>Cada movimiento es un gasto, un ingreso o una transferencia entre tus propias cuentas. Se cargan desde el botón <strong>Nuevo</strong> (destacado en el centro de la barra inferior, o como acceso rápido en Inicio).</p>
 
@@ -577,6 +583,12 @@
         que deja elegir cualquier rango de fechas, incluido "todo el tiempo".
       </p>
     
+      <h3>Aviso al cerrar el mes</h3>
+      <p>
+        Cuando cambia el mes, LepusMint te avisa con una notificación para revisar el mes que cerró. Tocala para ir a Períodos.
+        El aviso se genera cuando abrís la app, así que si no la abriste ese día, lo ves al abrirla.
+      </p>
+
       <h3>Borrar un período</h3>
       <p>
         Desde el detalle de un mes está el botón <strong>"Eliminar período"</strong>: borra <strong>todos los
@@ -808,6 +820,12 @@
         ponele un nombre y agregá a cada persona (a las que no existan todavía en Deudas las creás ahí mismo).
         Opcionalmente cargale a cada una un <strong>% por defecto</strong> — si no lo hacés, el reparto arranca
         igual para todos.
+      </p>
+
+      <h3>Color de cada grupo</h3>
+      <p>
+        Al crear o editar un grupo podés elegir un color, o dejarlo en "Sin color". El color se ve suave en el selector de
+        grupo cuando cargás un movimiento compartido y en la lista de grupos. Es solo una ayuda visual: no cambia cómo se reparte nada.
       </p>
 
       <h3>Taggear un movimiento</h3>
@@ -1358,6 +1376,14 @@
         <span class="callout-label">Antes de actualizar</span>
         <p>Por las dudas, hacé un respaldo (Ajustes → Exportar JSON, o "Ejecutar respaldo ahora") antes de instalar una nueva versión encima de la vieja.</p>
       </div>
+      <div class="callout">
+        <span class="callout-label">Si el celular muestra "posible virus"</span>
+        <p>
+          Algunos navegadores y Play Protect muestran este aviso con cualquier APK que no viene de Play Store, aunque sea la
+          app original. Si bajaste el archivo desde el link oficial de LepusMint (la página del sitio o su release en GitHub),
+          podés continuar. Si llegó desde otro lugar, no lo instales.
+        </p>
+      </div>
     </section>
 
     <!-- ─────────────────────────── CHANGELOG ─────────────────────────── -->
@@ -1365,6 +1391,27 @@
       <div class="chapter-kicker"><span class="num">Noviembre 2026</span></div>
       <h2>Qué se corrigió en esta actualización</h2>
       <p>Si ya usabas la app de antes, esto es lo que cambió puntualmente. Empieza por lo más reciente.</p>
+
+      <h3>Nuevo: dictado con varios movimientos (1.8.3)</h3>
+      <p>
+        Si en un mismo dictado decís varios movimientos, se cargan de a uno con "Movimiento 2 de 4". Al terminar de procesar
+        el audio pasás directo al movimiento, sin ver el inicio. En la lista, al deslizar un movimiento, Editar y Eliminar
+        son ahora un lápiz y un tacho.
+      </p>
+
+      <h3>Nuevo: colores de grupos y reporte de cuentas (1.8.1 y 1.8.2)</h3>
+      <p>
+        Cada grupo compartido puede tener un color suave, en el selector de grupo de los movimientos y en la lista de grupos.
+        Desde Cuentas exportás un PDF con el saldo de cada cuenta. Ver "Cuentas" y "Gastos compartidos".
+      </p>
+
+      <h3>Nuevo: presupuestos, calendario y más (1.8.0)</h3>
+      <p>
+        Presupuesto mensual por categoría, con aviso al 80 % y al 100 %. Calendario de vencimientos. Compartir el resumen de una
+        deuda por WhatsApp. Liquidación de un grupo como código QR. Ajustes en bloques plegables. Inicio personalizable. Registro
+        de errores para copiar un informe. Atajos en Android. Filtro de movimientos por monto. "Frecuentes" en el formulario.
+        Deshacer al borrar un movimiento. Dictado con Gemini o Groq (OpenRouter ya no está). Cada cosa está en su capítulo.
+      </p>
 
       <h3>Nuevo: compartir gastos por link</h3>
       <p>Una liquidación se puede compartir como link además del archivo. Quien lo recibe importa los gastos desde la app. Ver "Gastos compartidos".</p>

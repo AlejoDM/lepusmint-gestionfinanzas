@@ -31,6 +31,8 @@ Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló
 - **Inicio a tu medida.** Elegís qué secciones ver y en qué orden.
 - **Registro de errores.** Si algo falla, queda guardado en tu teléfono y podés copiar el informe desde Ajustes → Acerca de.
 - **Atajos en Android.** Mantené apretado el ícono de LepusMint para cargar un gasto, un ingreso o ver tus listas de compras.
+- **Resumen al cerrar el mes.** Cuando cambia el mes, te avisamos para que revises cómo cerró. Tocá el aviso para ir a Períodos.
+- **Más rápido con muchos movimientos.** La lista y el inicio cargan más rápido cuando tenés miles de movimientos.
 - **Pantallas vacías con acción.** Cuentas, categorías, movimientos, listas de compras, períodos, gastos fijos, deudas e historial de ahorro te ofrecen el primer paso.
 
 ## Versión 1.7.1 — 23 de noviembre de 2026
