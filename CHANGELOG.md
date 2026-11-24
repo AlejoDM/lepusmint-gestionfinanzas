@@ -6,6 +6,12 @@ Acá se cuenta, versión por versión y con fecha, qué se agregó o se arregló
 
 - **Color en el listado de grupos.** Los grupos compartidos muestran su color también en la lista de grupos, con el mismo tono suave.
 
+## Versión 1.8.3 — 24 de noviembre de 2026
+
+- **Del dictado directo al movimiento.** Al terminar de procesar el audio pasás directo al movimiento. Ya no se ve un instante la pantalla de inicio.
+- **Varios movimientos en un solo audio.** Si dictás varios, la app los arma todos y los abre de a uno, con "Movimiento 2 de 4". Podés saltar el que no quieras.
+- **Lápiz y tacho en la lista.** Al deslizar un movimiento, Editar y Eliminar ahora son íconos de lápiz y tacho.
+
 ## Versión 1.8.1 — 23 de noviembre de 2026
 
 - **Reporte de cuentas.** Desde Cuentas exportás un PDF con el saldo actual de cada cuenta y el total. Las cuentas archivadas no entran.
