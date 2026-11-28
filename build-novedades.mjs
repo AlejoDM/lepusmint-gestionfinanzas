@@ -32,6 +32,12 @@ const desc = 'Historial de novedades de LepusMint, la app gratuita de finanzas p
 const page = `<!DOCTYPE html>
 <html lang="es">
 <head>
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TM3XGFKM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title}</title>
